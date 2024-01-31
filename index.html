@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="section.css" />
+    <link rel="stylesheet" href="table.css" />
+    <link rel="stylesheet" href="navigation.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap"
+      rel="stylesheet"
+    />
+    <title>Moja pierwsza strona internetowa</title>
+  </head>
+
+  <body class="body">
+    <div class="container">
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#O-mnie"> O mnie </a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#Dlaczego-Frontend-Developer?">
+              Dlaczego Frontend Developer?
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#Co-wiecej?"> Co więcej? </a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#Przykladowa-interakcja"> Przykładowa interakcja </a>
+          </li>
+        </ul>
+      </nav>
+      <main class="main">
+        <header class="section section--centered">
+          <h1>Katarzyna Żołądek</h1>
+          <img
+            class="section__image"
+            width="400"
+            height="300"
+            src="https://i.postimg.cc/Fz7Qmds2/img.jpg"
+            alt="Katarzyna Żołądek"
+          />
+        </header>
+        <section id="O-mnie" class="section">
+          <h2>
+            <span class="section__subHeader">O mnie</span>
+          </h2>
+          <p class="section__content">
+            Ukończyłam studia na kierunku <strong>Dietetyka</strong>, ze względu
+            na zainteresowanie tematyką <b>psychodietetyki</b> oraz zdrowego
+            stylu życia. Lubię gotować, piec, czytać książki psychologiczne.
+          </p>
+        </section>
+        <p>
+          <i
+            >Wrzucę tutaj przepis na swój ulubiony koktajl. Wystarczy zblendować
+          </i>
+          😅
+        </p>
+        <div class="tableContainer">
+          <table class="table">
+            <caption class="table__caption">
+              Koktajl na podwieczorek
+            </caption>
+            <thead>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="col">
+                  Składnik
+                </th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Ilość
+                </th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Kcal
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Mleko
+                </th>
+                <td class="table__cell">150ml</td>
+                <td class="table__cell">50 kcal</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Banan
+                </th>
+                <td class="table__cell">100g</td>
+                <td class="table__cell">90 kcal</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Truskawki
+                </th>
+                <td class="table__cell">70g</td>
+                <td class="table__cell">25 kcal</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Jarmuż
+                </th>
+                <td class="table__cell">20g</td>
+                <td class="table__cell">7 kcal</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Masło orzechowe
+                </th>
+                <td class="table__cell">20g</td>
+                <td class="table__cell">120 kcal</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr class="table__row">
+                <th
+                  class="table__cell table__cell--header"
+                  scope="row"
+                  colspan="2"
+                >
+                  Razem
+                </th>
+                <td class="table__cell">292 kcal</td>
+              </tr>
+            </tfoot>
+          </table>
+          <footer class="footer">
+            <p>Źródło: Opracowanie własne.</p>
+          </footer>
+        </div>
+        <section id="Dlaczego-Frontend-Developer?" class="section">
+          <h2>
+            <span class="section__subHeader">Dlaczego Frontend Developer?</span>
+          </h2>
+
+          <p class="section__content">
+            Po pierwsze branża IT oferuje ogromną różnorodność możliwości
+            zatrudnienia. Po drugie to obszar, który stale się rozwija, co
+            oznacza, że zawsze są nowe technologie do poznania i umiejętności do
+            zdobycia.
+            <em
+              >Ponadto praca w IT często zapewnia elastyczność czasu i możliwość
+              zdalnej pracy.
+            </em>
+            <i>Stąd też pomysł żeby spróbować rozwijać się w innej branży. </i>
+          </p>
+        </section>
+        <section id="Co-wiecej?" class="section">
+          <h3>
+            <span class="section__subHeader">Co więcej?</span>
+          </h3>
+          <p class="section__content">
+            Świat dietetyki jest także dynamiczny i zmienny - nowe badania
+            naukowe i trendy w zdrowym odżywianiu oznaczają, że stale trzeba być
+            na bieżąco z wiedzą, co może być inspirujące dla osób lubiących
+            stały rozwój.
+            <br />Połączenie dietetyki i informatyki może być wspierające dla
+            zdrowego trybu życia i poprawy stanu zdrowia. <br />
+            Można wykorzystać nowe wiadomości do rozwijania aplikacji lub
+            platformy online wspierającej zdrowe odżywianie.
+          </p>
+        </section>
+        <section id="Przykladowa-interakcja" class="section">
+          <h4>
+            <span class="section__subHeader">Przykładowa interakcja</span>
+          </h4>
+          <p class="section__paragraph">
+            <button class="section__button js-changeBackground">
+              Włącz <span class="nextColorName">szare</span> tło
+            </button>
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <footer class="body__footer">
+      <p>© Copyright by Katarzyna Żołądek - wszelkie prawa zastrzeżone.</p>
+    </footer>
+  </body>
+</html>
