@@ -4,7 +4,7 @@
 
 ## Demo
 
-![Link to my first website](https://katarzynazoladek.github.io/homepage/)
+https://katarzynazoladek.github.io/homepage/
 
 ## Content of Project
 - General info
